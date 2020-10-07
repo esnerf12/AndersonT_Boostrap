@@ -1,0 +1,144 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {font-size: 66px; font-weight: 600; line-height: 80px; padding: 120px 0;}
+h2 {font-size: 48px; margin-bottom: 30px;}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.btn-ligth-grey { background-color: #f5f5f5;}
+.bg-dark { background-color: #1a1a1a !important;}
+
+.topmargin-sm { margin-top: 60px;}
+
+.btn{
+    font-size: 20px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-ligth {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.btn ion-icon { font-size: 16px; margin-left: 5px; }
+
+.text-dark { color: #1a1a1a;}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0);
+    min-height: 100px;
+}
+
+.nav-link {color: #1a1a1a; }
+.nav-link:hover {color: #2574bf; }
+
+.navbar-brand {color: #1a1a1a; }
+.navbar-brand:hover{color: #2574bf;}
+
+.navbar-toggler {font-size: 40px; }
+.navbar-toggler:focus{outline: none; }
+
+#hero {
+    background-image: url('images/dcshoes.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portfolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details h2 {
+    margin-bottom: 0px;
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+    color: #ffffff;
+}
+
+.product-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.product-container:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+}
+
+#footer a:hover {
+    color: #ffffff;
+}
+
+#footer .list-inline .list-inline-item {
+    padding: 10px 15px; 
+}
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal;}
+    .portfolio-details h2 { font-size: 32px;}
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }
